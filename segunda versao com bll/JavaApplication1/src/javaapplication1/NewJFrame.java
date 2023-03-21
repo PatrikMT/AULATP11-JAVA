@@ -119,12 +119,12 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(jButton1)
                         .addGap(90, 90, 90)
                         .addComponent(jButton3)))
-                .addContainerGap(179, Short.MAX_VALUE))
+                .addContainerGap(59, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(96, 96, 96)
                     .addComponent(jButton2)
-                    .addContainerGap(507, Short.MAX_VALUE)))
+                    .addContainerGap(362, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -36,6 +36,10 @@ public static void validaDados(Dados dados)
           Erro.setErro("O campo codigo deve ser inteiro!"); return;
         }
     }
+    if (Integer.parseInt(dados.getCodigo()) <= 0)
+        {
+          Erro.setErro("O campo Codigo deve ser maior que zero!"); return;
+        }
     
     
     if (dados.getAno().equals(""))
@@ -53,6 +57,10 @@ public static void validaDados(Dados dados)
           Erro.setErro("O campo ano deve ser inteiro!"); return;
         }
     }
+    if (Integer.parseInt(dados.getAno()) <= 0)
+        {
+          Erro.setErro("O campo Ano deve ser maior que zero!"); return;
+        }
     
     if (dados.getEditora().equals(""))
     {
